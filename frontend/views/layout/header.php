@@ -6,7 +6,7 @@ js_log(content:$menu);
 
 <header data-layout="header">
     <mark>hier kommt das logo</mark>
-    <nav class= "nav-container"></nav>
+    <nav class= "nav-container">
     <ul class="nav">
         <?php foreach ($menu as $item) : ?>
             <li class="nav-item">
@@ -16,4 +16,5 @@ js_log(content:$menu);
         </li>
         <?php endforeach; ?>
     </ul>
+    </nav>
 </header>
