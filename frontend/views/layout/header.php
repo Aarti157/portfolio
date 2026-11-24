@@ -1,6 +1,5 @@
 <?php
 $menu = get_menu_by_slug(slug:'main');
-js_log(content:$menu);
 ?>
 
 
